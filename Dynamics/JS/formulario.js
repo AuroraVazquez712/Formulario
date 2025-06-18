@@ -4,6 +4,7 @@ let input_edad= document.getElementById("edad");
 let mainform = document.getElementById("mainform");
 let input_genero= document.getElementById("Genero");
 let input_interes= document.getElementById("intereses");
+let input_pais = document.getElementById('Pais');
 
 mainform.addEventListener("submit", e =>{
     e.preventDefault();
@@ -35,7 +36,7 @@ mainform.addEventListener("submit", e =>{
 
     if (generos.indexOf(input_genero.value)!= -1)
     {
-        console.log("Tu genero es válido. Todos los géneros son válidos =)");
+        console.log("Tu genero es válido. Todos los géneros son válidos ");
     }
     else 
     {
@@ -54,4 +55,17 @@ mainform.addEventListener("submit", e =>{
     {
         console.log("El interes es es: " +input_interes.value + " no es opción valida");
     }
+
+    
+    
+    valorPais = input_pais.value;
+    if (valorPais === 'Selecciona') 
+    {
+        console.log("selecciona un país válido");
+                
+    } 
+    else 
+    {
+        console.log("País seleccionado correctamente");
+    } 
 });
