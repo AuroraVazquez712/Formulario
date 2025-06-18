@@ -1,0 +1,15 @@
+h1{
+    color: rgb(233, 174, 135);
+    font-family:'Times New Roman', Times, serif;
+    display: flex;
+    align-content: center;
+}
+
+body{
+    background-color: rgb(58, 8, 16);
+    border-color: aqua;
+}
+
+.form{
+    background-color:rgb(252, 209, 184);
+}
