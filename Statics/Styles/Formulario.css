@@ -1,11 +1,11 @@
 @font-face{
     font-family:"Titulazo";
-    src: url(../Fonts/'Polaroid Script (Demo_Font).otf');
+    src: url(./Statics/Fonts/'Polaroid Script (Demo_Font).otf');
 }
 
 @font-face{
     font-family:"Letra";
-    src: url(../Fonts/'Type Machine.ttf');
+    src: url(./Statics/Fonts/'Type Machine.ttf');
 }
 h1 {
     color: rgb(182, 132, 101);
