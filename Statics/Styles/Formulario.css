@@ -1,15 +1,31 @@
-h1{
-    color: rgb(233, 174, 135);
-    font-family:'Times New Roman', Times, serif;
-    display: flex;
-    align-content: center;
+@font-face{
+    font-family:"Titulazo";
+    src: url(../Fonts/'Polaroid Script (Demo_Font).otf');
 }
 
-body{
+@font-face{
+    font-family:"Letra";
+    src: url(../Fonts/'Type Machine.ttf');
+}
+h1 {
+    color: rgb(182, 132, 101);
+    font-family: "Titulazo";
+    text-align: center;
+    font-size:80px;
+}
+
+body {
     background-color: rgb(58, 8, 16);
-    border-color: aqua;
+    
 }
 
-.form{
-    background-color:rgb(252, 209, 184);
+.form {
+    background-color: rgb(252, 209, 184);
+    max-width: 700px;
+    margin: 20px auto; 
+    padding: 20px;
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(75, 10, 10, 0.66); 
+    font-family:"Letra";
+    
 }
